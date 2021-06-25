@@ -1,0 +1,11 @@
+[
+    {
+        "path": "_annotate.py",
+        "line": 14,
+        "func_name": "main",
+        "type_comments": [
+            "() -> None"
+        ],
+        "samples": 1
+    }
+]

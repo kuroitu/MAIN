@@ -1,0 +1,94 @@
+[
+    {
+        "path": "_annotate.py",
+        "line": 8,
+        "func_name": "main",
+        "type_comments": [
+            "() -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "_base.py",
+        "line": 14,
+        "func_name": "BaseError.forward",
+        "type_comments": [
+            "(*numpy.ndarray) -> pyannotate_runtime.collect_types.NoReturnType"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "_base.py",
+        "line": 17,
+        "func_name": "BaseError.backward",
+        "type_comments": [
+            "(*numpy.ndarray) -> pyannotate_runtime.collect_types.NoReturnType"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "_binary.py",
+        "line": 31,
+        "func_name": "Binary.forward",
+        "type_comments": [
+            "(numpy.ndarray, numpy.ndarray) -> numpy.ndarray"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "_binary.py",
+        "line": 45,
+        "func_name": "Binary.backward",
+        "type_comments": [
+            "(numpy.ndarray, numpy.ndarray) -> numpy.ndarray"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "_cross.py",
+        "line": 29,
+        "func_name": "Cross.forward",
+        "type_comments": [
+            "(numpy.ndarray, numpy.ndarray) -> numpy.ndarray"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "_cross.py",
+        "line": 43,
+        "func_name": "Cross.backward",
+        "type_comments": [
+            "(numpy.ndarray, numpy.ndarray) -> numpy.ndarray"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "_interface.py",
+        "line": 18,
+        "func_name": "get_err",
+        "type_comments": [
+            "(str) -> _square.Square",
+            "(str) -> _cross.Cross",
+            "(str) -> _binary.Binary"
+        ],
+        "samples": 3
+    },
+    {
+        "path": "_square.py",
+        "line": 25,
+        "func_name": "Square.forward",
+        "type_comments": [
+            "(numpy.ndarray, numpy.ndarray) -> numpy.ndarray"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "_square.py",
+        "line": 39,
+        "func_name": "Square.backward",
+        "type_comments": [
+            "(numpy.ndarray, numpy.ndarray) -> numpy.ndarray"
+        ],
+        "samples": 1
+    }
+]
