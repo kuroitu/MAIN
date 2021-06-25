@@ -17,16 +17,12 @@ MAIN
 
 
 My AI Note: MAIN.
+オレオレライブラリを作りながら機械学習について勉強中...
 
 
 * Free software: MIT license
 * Documentation: https://main.readthedocs.io.
 
-
-Features
---------
-
-* TODO
 
 Credits
 -------
